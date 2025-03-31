@@ -5,6 +5,8 @@ import { hoursSelect } from "./hours-select";
 const hours = document.getElementById("hours");
 
 export function hoursLoad({ date }) {
+  hours.innerHTML = "";
+
   const opening = openingHours.map((hour) => {
     const [scheduleHour] = hour.split(":");
 
@@ -27,7 +29,6 @@ export function hoursLoad({ date }) {
     } else if (hour === "18:00") {
       hourHeaderAdd("Noite");
     }
-
     hours.append(li);
   });
 
