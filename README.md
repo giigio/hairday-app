@@ -2,8 +2,6 @@
 
 Sistema de agendamento de horários para salões de beleza.
 
-🔗 [Clique aqui para acessar](https://giigio.github.io/hairday-app/)
-
 ## Sobre o Projeto
 
 HairDay é uma aplicação web que permite gerenciar agendamentos de um salão de beleza, oferecendo uma interface intuitiva para clientes e profissionais, desenvolvido com JavaScript vanilla e uma API REST de exemplo.
